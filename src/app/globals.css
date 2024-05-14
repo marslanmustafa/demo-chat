@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* #097128 */
+  --primary: 138, 85%, 24%;  
+  --black: 0, 0%, 6%;
+  --myWhite: 0, 0%, 95%;
+  --lightGrey: 0, 0%, 71%;
+  --darkGrey: 0, 0%, 52%;
+  --gradientTo:291, 59%, 52%;
+   --gradientFrom:249, 76%, 64%;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  background: #fff;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

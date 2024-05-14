@@ -1,0 +1,71 @@
+{
+  "chat": {
+    "participants": ["User1", "User2"],
+    "messages": [
+      {
+        "sender": "User1",
+        "thread": 1,
+        "messages": [
+          {
+            "content": "Understandable. Anything exciting happening?",
+            "timestamp": "2024-05-13T10:20:00Z",
+            "read": true
+          }
+        ]
+      },
+      {
+        "sender": "User2",
+        "thread": 2,
+        "messages": [
+          {
+            "content": "Hi! How are you?",
+            "timestamp": "2024-05-13T10:05:00Z",
+            "read": true
+          },
+          {
+            "content": "I'm doing well too. Just busy with work.",
+            "timestamp": "2024-05-13T10:15:00Z",
+            "read": false
+          },
+          {
+            "content": "Not really, just the usual grind.",
+            "timestamp": "2024-05-13T10:25:00Z",
+            "read": false
+          }
+        ]
+      },
+      {
+        "sender": "User1",
+        "thread": 2,
+        "messages": [
+          {
+            "content": "Not really, just the usual grind.",
+            "timestamp": "2024-05-13T10:25:00Z",
+            "read": false
+          }
+        ]
+      },
+      {
+        "sender": "User2",
+        "thread": 2,
+        "messages": [
+          {
+            "content": "Hi! How are you?",
+            "timestamp": "2024-05-13T10:05:00Z",
+            "read": true
+          }
+        ]
+      },{
+        "sender": "User1",
+        "thread": 1,
+        "messages": [
+          {
+            "content": "Understandable. Anything exciting happening?",
+            "timestamp": "2024-05-13T10:20:00Z",
+            "read": true
+          }
+        ]
+      }
+    ]
+  }
+}

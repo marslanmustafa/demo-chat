@@ -1,0 +1,44 @@
+[
+  {
+    "senderInitials": "MI",
+    "senderName": "Mishal Irfan",
+    "messageContent": "Are you available for a meeting?",
+    "timestamp": "10:00 AM",
+    "unreadMessages": 3
+  },
+  {
+    "senderInitials": "JW",
+    "senderName": "John Wick",
+    "messageContent": "Let's catch up over coffee.",
+    "timestamp": "11:30 AM",
+    "unreadMessages": 6
+  },
+  {
+    "senderInitials": "AH",
+    "senderName": "Alice Hatter",
+    "messageContent": "What do you think about the new project?",
+    "timestamp": "1:45 PM",
+    "unreadMessages": 8
+  },
+  {
+    "senderInitials": "ES",
+    "senderName": "Elon Musk",
+    "messageContent": "We're launching a new product next month.",
+    "timestamp": "3:20 PM",
+    "unreadMessages": 2
+  },
+  {
+    "senderInitials": "JB",
+    "senderName": "Jane Bond",
+    "messageContent": "Are you free for dinner tonight?",
+    "timestamp": "5:00 PM",
+    "unreadMessages": 3
+  },
+  {
+    "senderInitials": "PP",
+    "senderName": "Peter Parker",
+    "messageContent": "I've got tickets to the game tomorrow.",
+    "timestamp": "6:30 PM",
+    "unreadMessages": 5
+ }
+]
