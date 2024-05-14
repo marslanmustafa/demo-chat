@@ -35,7 +35,7 @@ const Thread = () => {
                   className={`m-2  flex flex-col items-${participantMessages.sender === 'User1' ? 'start' : 'end'}`}
                 >
                      <div
-                      className={`text-xs px-5 py-2 ${participantMessages.sender === 'User1' ? 'bg-gray-300 text-black' :"bg-gradient-to-t to-gradientTo from-gradientFrom" } w-72 text-white flex flex-col gap-2 ${
+                      className={`text-[14px] px-6 py-2 ${participantMessages.sender === 'User1' ? 'bg-gray-300 text-black' :"bg-gradient-to-t to-gradientTo from-gradientFrom" } w-72 text-white flex items-end flex-col gap-2 ${
                         msgIndex === 0 ? 'rounded-t-full rounded-bl-full' : ''} ${msgIndex === participantMessages.messages.length - 1 ? 'rounded-b-full rounded-tl-full' : ''} ${msgIndex > 0  ? 'rounded-l-full' : ''}`}
                     >
                       <p className='w-full'>{message.content}</p>

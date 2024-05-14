@@ -7,9 +7,9 @@ const Message = ({ senderInitials, senderName, messageContent, timestamp, unread
           {senderInitials}
         </h1>
       </div>
-      <div className='col-span-4 text-[10px] h-fit'> 
-        <h1 className="font-bold" >{senderName}</h1>
-        <h2>{messageContent.length > 29 ? (messageContent.substring(0, 28) + '...') : messageContent}</h2>
+      <div className='col-span-4 text-[10px] h-fit '> 
+        <h1 className="font-bold text-[12px]" >{senderName}</h1>
+        <h2 className="text-darkGray">{messageContent.length > 29 ? (messageContent.substring(0, 28) + '...') : messageContent}</h2>
       </div>
       <div className='flex items-center justify-center gap-1 flex-col text-darkGrey font-bold text-center text-[8px]'>
         <h1 className=''>
