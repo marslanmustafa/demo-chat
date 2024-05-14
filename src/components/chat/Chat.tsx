@@ -5,7 +5,7 @@ import Thread from './Thread'
 
 const Chat = () => {
   return (
-    <div  className='relative h-full w-[50%]' >
+    <div  className='relative h-full w-[53%]' >
       <Header/>
       <Thread/>
       <MsgInput/>

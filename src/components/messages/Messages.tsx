@@ -5,9 +5,9 @@ import Message from "./Message";
 import messages from "@/data/messages.json"
 const Messages = () => {
   return (
-    <div className="relative w-[27%] h-screen ">
+    <div className="relative w-[24%] h-screen ">
       <Header />
-      <div className="mt-16 h-[calc(100vh-64px)] py-3 px-5 bg-gray-100 overflow-scroll">
+      <div className="mt-16 h-[calc(100vh-64px)] py-3 px-6 bg-gray-100 overflow-scroll">
         <div className="py-3">
           <button
             type="button"
